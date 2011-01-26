@@ -1,0 +1,25 @@
+Timing  Chip:
+
+How It Will Work:
+
+Basically, there is a motion sensor on each athletes track, at many locations on the track or at the starting/finishing line. And these are connected to the input pins of an arduino, some distance away. When an athelete passes the motion sensor, the signal is sent to the the respective input pin on the arduino.
+
+Programming:
+In the arduino, you can make a condition, say if input pin 1 recieves the input first,from the motion sensor, assign the value "1" to the variable "first",assign the "2" to the variable "second" when the sensor 2 is triggered, etc. Then print the variable, either with or on an LED screen or on the arduino serial monitor. 
+
+Materials Required:
+1. Arduino Mega/Uno Dev Board
+2. Lots of wire
+3. Motion Sensors = the number of tracks
+
+Cost:
+Arduino Board: 1475 rs: http://goo.gl/z4cOP
+Lots of Wire: No clue
+Motion Sensors: Probably 40 - 50 rs(motion sensors are basically IR LED'S)
+
+Problems: 
+1. This unit is not exactly mobile. So the motion  sensors have to be assembled on the track ( not much effort). But with motion sensors in many locations it might be hard.
+2. If the player switches tracks, or if tracks don't exist there is a big problem.
+
+Alternates:
+1. An RFID timing chip, which is mobile. Working on that. But it will be about 5x or some(x) the cost of this unit, as the RFID readers are expensive
